@@ -124,4 +124,5 @@ IPv4 chính là IP để cho người khác có thể tham gia vào máy chủ c
 
 
 Nếu có thắc mắc hoặc cần giúp đỡ, vui lòng liên hệ mình theo Discord: **demoncard09**
+
 Hoặc nhắn tin qua Facebook: [https://www.facebook.com/truonglinhhanh](url)
