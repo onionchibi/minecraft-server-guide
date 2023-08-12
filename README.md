@@ -40,6 +40,7 @@ Xây dựng Spigot: (Nếu sử dụng Paper, Purpur hoặc server khác, vui l�
 - Cũng trong thư mục trên, tạo một file **Text Document** với tên bất kỳ với đuôi mở rộng là **.bat**, ví dụ _**Run.bat**_.
 
 Ấn chuột phải vào file **Run.bat**, chọn _Edit with Notepad++_, sao chép và dán đoạn code dưới đây vào rồi lưu lại:
+
 `java -jar BuildTools.jar --rev latest`
 
 Mặc định **BuildTools* sẽ tạo Spigot phiên bản ổn định mới nhất.
