@@ -1,7 +1,9 @@
 ### Hướng dẫn host server Minecraft trực tiếp trên máy tính chi tiết nhất có thể.
 Trong bài viết này mình sẽ hướng dẫn các bạn host một server Minecraft trực tiếp trên máy tính của các bạn, sử dụng Spigot.
 **_Spigot là server mặc định, không tuỳ biến, tinh chỉnh bất cứ thứ gì, nên so với paper hay purpur thì hiệu suất sẽ kém hơn, nhưng bù lại vì nó là server gốc chuẩn nên hầu như không có lỗi xảy ra._**
+
 _(Paper, Purpur…làm tương tự)._
+
 Chú ý: tất cả kiến thức dưới đây là kinh nghiệm của cá nhân mình, nên có thể sẽ có sai sót, nếu có ý kiến đóng góp, vui lòng liên hệ với mình để mình hoàn thiện hướng dẫn này hơn, xin cảm ơn.
 
 **Thông tin liên hệ vui lòng xem cuối bài viết.**
