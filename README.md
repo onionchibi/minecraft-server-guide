@@ -43,7 +43,7 @@ Xây dựng Spigot: (Nếu sử dụng Paper, Purpur hoặc server khác, vui l�
 
 `java -jar BuildTools.jar --rev latest`
 
-Mặc định **BuildTools* sẽ tạo Spigot phiên bản ổn định mới nhất.
+Mặc định **BuildTools** sẽ tạo Spigot phiên bản ổn định mới nhất.
 
 Nếu muốn tạo phiên bản cũ, thay `latest` bằng số phiên bản tương ứng. Ví dụ: `1.19.4`, `1.19.2`...
 
