@@ -72,7 +72,8 @@ Nhấn đúp để mở file **eula.txt**, sao chép và dán đoạn code dư�
 
 > (EULA là End User License Agreement, có nghĩa Thỏa thuận Giấy phép người dùng cuối, Thỏa thuận sử dụng sản phẩm, Điều kiện sử dụng, Điều khoản Cấp phép Phần mềm)
 
-![image](https://github.com/onionchibi/minecraft-server-guild/assets/86107757/5a5f8782-1c44-4df7-b03f-7813b7375a79)
+![image](https://github.com/onionchibi/minecraft-server-guild/assets/86107757/3f46d5d3-619b-42b8-9a99-195967aef1be)
+
 
 - Nhấp đúp file **Start.bat** để bắt đầu quá trình khởi động server. Vui lòng chờ đợi,
 - Server hoàn thành khởi động sẽ có dòng chữ:
@@ -113,12 +114,11 @@ Nhấn đúp để mở file **eula.txt**, sao chép và dán đoạn code dư�
 ### **Kết nối server:**
 
 - Bạn có thể kết nối tới server của chính mình bằng IP: `localhost`
-- IP dành cho người khác, các bạn truy cập vào trang web dưới đây:
-[https://whatismyipaddress.com/](url)
-![image](https://github.com/onionchibi/minecraft-server-guild/assets/86107757/0acf1039-0402-45cc-9a25-449af45ae82e)
-IPv4 chính là IP để cho người khác có thể tham gia vào máy chủ của bạn.
+- Các bạn cần Public IP để người khác có thể kết nối tới server của bạn:
+Vào link sau: [[https://www.facebook.com/truonglinhhanh](https://www.whatismyip.com/)](url)
+My Public IPv4 chính là IP để cho người khác có thể tham gia vào máy chủ của bạn.
 
-- Lưu ý: Mỗi lần bạn rút điện modem, IPv4 trên sẽ bị thay đổi.
+- Lưu ý: Mỗi lần bạn rút điện modem, Public IPv4 sẽ bị thay đổi.
 
 ### Trên đây là tất cả hướng dẫn cơ bản nhất để tạo một server Minecraft trực tiếp trên máy tính của bạn.
 
