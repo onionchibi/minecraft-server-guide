@@ -13,8 +13,8 @@ Chú ý: tất cả kiến thức dưới đây là kinh nghiệm của cá nhâ
 - Ram: tối thiểu 8GB trở lên.
 
 ### Công cụ, phần mềm cần thiết:
-- Java JDK **(x64 Installer hoặc X64 MSI Installer)**: [https://www.oracle.com/java/technologies/downloads/#java20](url)
-- Notepad++: [https://notepad-plus-plus.org/downloads/](url)
+- Java JDK **(x64 Installer hoặc X64 MSI Installer)**: https://www.oracle.com/java/technologies/downloads/#java20
+- Notepad++: https://notepad-plus-plus.org/
 
 ### Mở port:
 _Hiểu đơn giản, port giống như cánh cổng có quyền cho vào hay không với các dữ liệu muốn ra vào hệ thống máy tính của bạn. Nếu bạn không mở port, người khác sẽ không thể tham gia vào máy chủ của bạn._
@@ -22,20 +22,20 @@ _Hiểu đơn giản, port giống như cánh cổng có quyền cho vào hay kh
 
 Vì mở port yêu cầu cần truy cập vào modem, và có rất nhiều loại modem + nhà mạng khác nhau nên mình sẽ không hướng dẫn cụ thể ở đây, các bạn có thể tham khảo trên các trang mạng hướng dẫn đúng với modem và nhà mạng đang dùng, nếu bạn không biết cách mở, vui lòng liên hệ với mình.
 
-Hiện đuôi file, xem phần mở rộng file: [https://quantrimang.com/cong-nghe/cach-hien-duoi-file-tren-windows-179704](url)
+Hiện đuôi file, xem phần mở rộng file: https://quantrimang.com/cong-nghe/cach-hien-duoi-file-tren-windows-179704
 
 ### Xây dựng/tải file server:
 **(*)** Tải về file server Paper, Purpur...(Nếu sử dụng Spigot, vui lòng bỏ qua bước này):
 
-- Paper: [https://papermc.io/downloads/paper](url)
-- Purpur: [https://purpurmc.org/downloads](url)
-- Pufferfish: [https://pufferfish.host/downloads](url)
+- Paper: https://papermc.io/
+- Purpur: https://purpurmc.org/
+- Pufferfish: https://pufferfish.host/
 
 Xây dựng Spigot: (Nếu sử dụng Paper, Purpur hoặc server khác, vui lòng bỏ qua bước này):
 
-- Tải **BuildTools** để xây dựng Spigot: [BuildTools.jar](https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar)
+- Tải **BuildTools** để xây dựng Spigot: https://hub.spigotmc.org/jenkins/job/BuildTools/
 
-- Copy **BuildTools.jar** vào một thư mục mới ngoài desktop để dễ làm việc.
+- Copy **BuildTools.jar** vừa tải vào một thư mục mới ngoài desktop để dễ làm việc.
 
 - Cũng trong thư mục trên, tạo một file **Text Document** với tên bất kỳ với đuôi mở rộng là **.bat**, ví dụ _**Run.bat**_.
 
@@ -127,4 +127,4 @@ Vào link sau: https://www.whatismyip.com/
 
 Nếu có thắc mắc hoặc cần giúp đỡ, vui lòng liên hệ mình theo Discord: **demoncard09**
 
-Hoặc nhắn tin qua Facebook: [https://www.facebook.com/truonglinhhanh](url)
+Hoặc nhắn tin qua Facebook: https://www.facebook.com/truonglinhhanh/
