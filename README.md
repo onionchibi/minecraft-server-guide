@@ -21,6 +21,7 @@ _Hiểu đơn giản, port giống như cánh cổng có quyền cho vào hay kh
 - Port mặc định của Minecraft: **25565**
 
 Vì mở port yêu cầu cần truy cập vào modem, và có rất nhiều loại modem + nhà mạng khác nhau nên mình sẽ không hướng dẫn cụ thể ở đây, các bạn có thể tham khảo trên các trang mạng hướng dẫn đúng với modem và nhà mạng đang dùng, nếu bạn không biết cách mở, vui lòng liên hệ với mình.
+
 Hiện đuôi file, xem phần mở rộng file: [https://quantrimang.com/cong-nghe/cach-hien-duoi-file-tren-windows-179704](url)
 
 ### Xây dựng/tải file server:
@@ -37,9 +38,12 @@ Xây dựng Spigot: (Nếu sử dụng Paper, Purpur hoặc server khác, vui l�
 - Copy **BuildTools.jar** vào một thư mục mới ngoài desktop để dễ làm việc.
 
 - Cũng trong thư mục trên, tạo một file **Text Document** với tên bất kỳ với đuôi mở rộng là **.bat**, ví dụ _**Run.bat**_.
+- 
 Ấn chuột phải vào file **Run.bat**, chọn _Edit with Notepad++_, sao chép và dán đoạn code dưới đây vào rồi lưu lại:
 `java -jar BuildTools.jar --rev latest`
+
 Mặc định **BuildTools* sẽ tạo Spigot phiên bản ổn định mới nhất.
+
 Nếu muốn tạo phiên bản cũ, thay `latest` bằng số phiên bản tương ứng. Ví dụ: `1.19.4`, `1.19.2`...
 
 - Nhấp đúp file **Run.bat** để bắt đầu quá trình xây dựng Spigot, Vui lòng chờ đợi.
@@ -56,7 +60,9 @@ Nếu muốn tạo phiên bản cũ, thay `latest` bằng số phiên bản tư�
  `java -Xms2G -Xmx2G -XX:+UseG1GC -jar xxx.jar nogui`
 
 `XmsXG`: với `X` là dung lượng ram tối thiểu bạn muốn cho server.
+
 `XmxYG`: với `Y` là dung lượng ram tối đa bạn muốn cho server.
+
 `xxx.jar`: là tên file server của bạn.
 
 - Tiếp tục tạo một file **Text Document** với tên bắt buộc là **eula.txt**.
@@ -80,15 +86,25 @@ Nhấn đúp để mở file **eula.txt**, sao chép và dán đoạn code dư�
 `false` = sai
 
 **_level-seed=_**: seed của thế giới, nếu bạn muốn tạo thế giới bằng seed, hãy nhập seed vào đây, nếu đã có thế giới cũ trước đó, bạn hãy xoá 3 thư mục: `world`, `world_nether`, `world_the_end` và khởi động lại server để tạo thế giới mới theo seed bạn đã cài đặt.
+
 **_gamemode=_**: chế độ game: `survival` (sinh tồn), `creative` (sáng tạo), `adventure` (phiêu lưu), `spectator` (theo dõi).
+
 **_motd=_**: tên server của bạn, sẽ hiển thị khi người chơi thêm server của bạn vào danh sách server của họ.
+
 **_pvp=_**: cho phép đánh nhau.
+
 **_generate-structures=_**: kiến tạo các kiến trúc trong thế giới (làng…).
+
 **_difficulty=_**: độ khó. `peaceful` (bình yên), `easy` (dễ), `medium` (trung bình), `hard` (khó).
+
 **_max-players=_**: cài đặt giới hạn số người có thể tham gia máy chủ.
+
 **_online-mode=_**: `true`: chỉ có người chơi minecraft bản quyền mới có thể tham gia máy chủ của bạn.
+
 **_sync-chunk-writes=_**: chỉnh `true` thành `false`.
+
 **_hardcore=_**: chế độ chơi siêu khó, chết không hồi sinh.
+
 **_level-type=_**:
      `minecraft\:normal`: là loại thế giới mặc định.
       `flat`: thế giới siêu phẳng.
