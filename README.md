@@ -117,6 +117,7 @@ Nhấn đúp để mở file **eula.txt**, sao chép và dán đoạn code dư�
 - Các bạn cần Public IP để người khác có thể kết nối tới server của bạn:
 
 Vào link sau: https://www.whatismyip.com/
+
 **My Public IPv4** chính là IP để cho người khác có thể tham gia vào máy chủ của bạn.
 
 - Lưu ý: Mỗi lần bạn rút điện modem, Public IPv4 sẽ bị thay đổi.
