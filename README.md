@@ -140,7 +140,7 @@ Arch:
 1. sudo snap install docker / sudo apt install docker.io -y
 ```
 
-## Bước 2: Setup 
+### Bước 2: Setup 
 - Khi cài xong docker thì hãy tạo file tên .env và paste code này vào đó
 ```env
 CONTAINER_NAME=
