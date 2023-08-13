@@ -119,9 +119,9 @@ Vào link sau: https://www.whatismyip.com/
 
 - Lưu ý: Mỗi lần bạn rút điện modem, Public IPv4 sẽ bị thay đổi.
 
-### Cách mở server bẳng Docker (Tạo server nâng cao)
+## Cách mở server bẳng Docker (Herta-Chan)
 
-## Bước 1: Cài Docker
+### Bước 1: Cài Docker
 - Đối với MacOS / Window: https://www.docker.com
 - Đối với Linux:
 ```
@@ -183,7 +183,7 @@ CMD echo "Server Startịng \n" && java -Xms${ram} -Xmx${ram} --add-modules=jdk.
 
 ### Lưu ý: 
 ## Trong file .env CONTAINER_NAME bạn có thể nhập bừa vì nó không ảnh hưởng gì mấy
-## Trong file .env RAM_AMOUNT chỉ cho sễ RAM bạn dùng để mở server (Ví dụ: Cấu hình máy là 64GB RAM bạn muốn mở 32GB RAM thì ghi 32768M / 32G / 32000M
+## Trong file .env RAM_AMOUNT chỉ cho số RAM bạn dùng để mở server (Ví dụ: Cấu hình máy là 64GB RAM bạn muốn mở 32GB RAM thì ghi 32768M / 32G / 32000M
 ## Trong file docker-compose.yml nếu server bạn mở thêm cho người dùng BE (Bugrock Edition) thì hãy thêm vào mục ports
 ```
 - 19132:19132
