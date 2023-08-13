@@ -201,6 +201,6 @@ CMD echo "Server Startịng \n" && java -Xms${ram} -Xmx${ram} --add-modules=jdk.
 ### Trên đây là tất cả hướng dẫn cơ bản nhất để tạo một server Minecraft trực tiếp trên máy tính của bạn.
 
 
-Nếu có thắc mắc hoặc cần giúp đỡ, vui lòng liên hệ mình theo Discord: **demoncard09** và **_itzdenki** (nếu bạn muốn mở như docker)
+Nếu có thắc mắc hoặc cần giúp đỡ, vui lòng liên hệ mình theo Discord: **demoncard09** (cơ bản) và **_itzdenki** (hỗ trợ docker)
 
 Hoặc nhắn tin qua Facebook: https://www.facebook.com/truonglinhhanh/
