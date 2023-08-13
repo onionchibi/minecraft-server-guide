@@ -119,7 +119,7 @@ Vào link sau: https://www.whatismyip.com/
 
 - Lưu ý: Mỗi lần bạn rút điện modem, Public IPv4 sẽ bị thay đổi.
 
-### Cách mở server bẳng Docker
+### Cách mở server bẳng Docker (Tạo server nâng cao)
 
 ## Bước 1: Cài Docker
 - Đối với MacOS / Window: https://www.docker.com
