@@ -12,7 +12,7 @@ Trong bài viết này mình sẽ hướng dẫn các bạn host server Minecraf
 ### 🧰 Công cụ, phần mềm cần thiết:
 - Java JDK **(x64 Installer hoặc X64 MSI Installer)**: https://www.oracle.com/java/technologies/downloads/#java20
 - Notepad++: https://notepad-plus-plus.org/
-### Hoặc các bạn có thể sử dụng **Docker** thay thế **Java**:
+### Hoặc các bạn có thể sử dụng **Docker** thay thế **Java** (Nâng Cao):
 https://github.com/onionchibi/minecraft-server-guide/blob/main/Docker.md
 
 ### 📌 Mở port:
