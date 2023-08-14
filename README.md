@@ -112,7 +112,7 @@ Nhấn đúp để mở file **eula.txt**, sao chép và dán đoạn code dư�
      `minecraft\:normal`: là loại thế giới mặc định.
       `flat`: thế giới siêu phẳng.
 
-### ** 🌐 Kết nối server:**
+### 🌐 Kết nối server:
 
 - Bạn có thể kết nối tới server của chính mình bằng IP: `localhost`
 - Các bạn cần Public IP để người khác có thể kết nối tới server của bạn:
