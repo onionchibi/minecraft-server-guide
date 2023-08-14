@@ -69,7 +69,6 @@ CMD echo "Server Startịng \n" && java -Xms${ram} -Xmx${ram} --add-modules=jdk.
 ```
 ### Trong file Dockerfile openjdk:16-jdk-alpine để chỉ cho phiên bản java bạn dùng để mở server. Nếu phiên bản của bạn yêu cầu java 17 đổ lên thì đởi thành openjdk:17-jdk-alpine
 ### Trong file Dockerfile paper-1.16.5-794.jar để chỉ cho file server, bạn sẽ phải đổi đúng với file bạn tải
-### Nếu bạn chọn dùng docker thì bạn không cần cài java nhé 
 
 
 ## 🏷️Tags
