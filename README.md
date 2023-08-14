@@ -13,7 +13,7 @@ Trong bài viết này mình sẽ hướng dẫn các bạn host server Minecraf
 - Java JDK **(x64 Installer hoặc X64 MSI Installer)**: https://www.oracle.com/java/technologies/downloads/#java20
 - Notepad++: https://notepad-plus-plus.org/
 ### Hoặc các bạn có thể sử dụng **Docker** thay thế **Java**:
-https://github.com/onionchibi/minecraft-server-guide/blob/main/Docker
+https://github.com/onionchibi/minecraft-server-guide/blob/main/Docker.md
 
 ### 📌 Mở port:
 _Hiểu đơn giản, port giống như cánh cổng có quyền cho vào hay không với các dữ liệu muốn ra vào hệ thống máy tính của bạn. Nếu bạn không mở port, người khác sẽ không thể tham gia vào máy chủ của bạn._
