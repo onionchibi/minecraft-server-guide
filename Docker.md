@@ -58,8 +58,6 @@ WORKDIR /server
 CMD echo "Server Startịng \n" && java -Xms${ram} -Xmx${ram} --add-modules=jdk.incubator.vector -jar paper-1.16.5-794.jar
 ```
 
-- Sau khi hoàn thành bạn hãy kéo lên trên để xem hướng dẫn nhé
-
 ## ⚠️ Lưu ý: 
 ### Trong file .env CONTAINER_NAME bạn có thể nhập bừa vì nó không ảnh hưởng gì mấy
 ### Trong file .env RAM_AMOUNT chỉ cho số RAM bạn dùng để mở server (Ví dụ: Cấu hình máy là 64GB RAM bạn muốn mở 32GB RAM thì ghi 32768M / 32G / 32000M
