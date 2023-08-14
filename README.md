@@ -1,4 +1,4 @@
-### Hướng dẫn host server Minecraft trực tiếp trên máy tính chi tiết nhất có thể.
+## 📝 Hướng dẫn host server Minecraft trực tiếp trên máy tính chi tiết nhất có thể.
 Trong bài viết này mình sẽ hướng dẫn các bạn host server Minecraft trực tiếp trên máy tính của các bạn.
 
 **Chú ý: tất cả kiến thức dưới đây là kinh nghiệm của cá nhân mình, nên có thể sẽ có sai sót, nếu có ý kiến đóng góp, vui lòng liên hệ với mình để mình hoàn thiện hướng dẫn này hơn, xin cảm ơn.**
@@ -9,11 +9,11 @@ Trong bài viết này mình sẽ hướng dẫn các bạn host server Minecraf
 - CPU: tối thiểu 2 nhân trở lên.
 - Ram: tối thiểu 8GB trở lên.
 
-### Công cụ, phần mềm cần thiết:
+### 🧰 Công cụ, phần mềm cần thiết:
 - Java JDK **(x64 Installer hoặc X64 MSI Installer)**: https://www.oracle.com/java/technologies/downloads/#java20
 - Notepad++: https://notepad-plus-plus.org/
 
-### Mở port:
+### 📌 Mở port:
 _Hiểu đơn giản, port giống như cánh cổng có quyền cho vào hay không với các dữ liệu muốn ra vào hệ thống máy tính của bạn. Nếu bạn không mở port, người khác sẽ không thể tham gia vào máy chủ của bạn._
 - Port mặc định của Minecraft: **25565**
 
@@ -21,7 +21,7 @@ Vì mở port yêu cầu cần truy cập vào modem, và có rất nhiều lo�
 
 Hiện đuôi file, xem phần mở rộng file: https://quantrimang.com/cong-nghe/cach-hien-duoi-file-tren-windows-179704
 
-### Xây dựng/tải file server:
+### 🗃️ Xây dựng/tải file server:
 **(*)** Tải về file server Paper, Purpur...(Nếu sử dụng Spigot, vui lòng bỏ qua bước này):
 
 - Paper: https://papermc.io/
@@ -38,7 +38,9 @@ Xây dựng Spigot: (Nếu sử dụng Paper, Purpur hoặc server khác, vui l�
 
 Ấn chuột phải vào file **Run.bat**, chọn _Edit with Notepad++_, sao chép và dán đoạn code dưới đây vào rồi lưu lại:
 
-`java -jar BuildTools.jar --rev latest`
+```bat
+java -jar BuildTools.jar --rev latest
+```
 
 Mặc định **BuildTools** sẽ tạo Spigot phiên bản ổn định mới nhất.
 
@@ -47,7 +49,7 @@ Nếu muốn tạo phiên bản cũ, thay `latest` bằng số phiên bản tư�
 - Nhấp đúp file **Run.bat** để bắt đầu quá trình xây dựng Spigot, Vui lòng chờ đợi.
 - Sau khi hoàn thành, bên trong thư mục sẽ xuất hiện một file **Spigot-x.x.xjar** với `x.x.x` là số phiên bản mà bạn đã xây dựng.
 
-### Chuẩn bị server:
+### 🚧 Chuẩn bị server:
 
 - Copy file server đã xây dựng hoặc tải **(*)** vào một thư mục mới ngoài desktop.
 - Trong thư mục trên, tạo một file **Text Document** với tên bất kỳ với đuôi mở rộng là **.bat**, ví dụ _**Start.bat**_.
@@ -55,7 +57,9 @@ Nếu muốn tạo phiên bản cũ, thay `latest` bằng số phiên bản tư�
 > (File Start.bat này là file khởi động server).
 
 - Ấn chuột phải vào file **Start.bat**, chọn _Edit with Notepad++_, sao chép và dán đoạn code dưới đây vào rồi lưu lại:
- `java -Xms2G -Xmx2G -XX:+UseG1GC -jar xxx.jar nogui`
+ ```bat
+java -Xms2G -Xmx2G -XX:+UseG1GC -jar xxx.jar nogui
+```
 
 `XmsXG`: với `X` là dung lượng ram tối thiểu bạn muốn cho server.
 
@@ -79,7 +83,7 @@ Nhấn đúp để mở file **eula.txt**, sao chép và dán đoạn code dư�
 
 > (Chú ý, tuyệt đối không tắt server bằng cách ấn X vào góc trên bên phải bảng console, hãy dùng lệnh stop và đợi cho server đóng hoàn toàn).
 
-### Chỉnh sửa server:
+### ⚙️ Chỉnh sửa server:
 - Có 2 giá trị cần nhớ:
 `true` = đúng
 `false` = sai
@@ -108,7 +112,7 @@ Nhấn đúp để mở file **eula.txt**, sao chép và dán đoạn code dư�
      `minecraft\:normal`: là loại thế giới mặc định.
       `flat`: thế giới siêu phẳng.
 
-### **Kết nối server:**
+### 🌐 Kết nối server:
 
 - Bạn có thể kết nối tới server của chính mình bằng IP: `localhost`
 - Các bạn cần Public IP để người khác có thể kết nối tới server của bạn:
@@ -119,7 +123,7 @@ Vào link sau: https://www.whatismyip.com/
 
 - Lưu ý: Mỗi lần bạn rút điện modem, Public IPv4 sẽ bị thay đổi.
 
-## Cách mở server bẳng Docker (Herta-Chan)
+## 🐳 Cách mở server bẳng Docker (Herta-Chan)
 
 ### Bước 1: Cài Docker
 - Đối với MacOS / Window: https://www.docker.com
@@ -181,20 +185,20 @@ CMD echo "Server Startịng \n" && java -Xms${ram} -Xmx${ram} --add-modules=jdk.
 
 - Sau khi hoàn thành bạn hãy kéo lên trên để xem hướng dẫn nhé
 
-### Lưu ý: 
-## Trong file .env CONTAINER_NAME bạn có thể nhập bừa vì nó không ảnh hưởng gì mấy
-## Trong file .env RAM_AMOUNT chỉ cho số RAM bạn dùng để mở server (Ví dụ: Cấu hình máy là 64GB RAM bạn muốn mở 32GB RAM thì ghi 32768M / 32G / 32000M
-## Trong file docker-compose.yml nếu server bạn mở thêm cho người dùng BE (Bugrock Edition) thì hãy thêm vào mục ports
+## ⚠️ Lưu ý: 
+### Trong file .env CONTAINER_NAME bạn có thể nhập bừa vì nó không ảnh hưởng gì mấy
+### Trong file .env RAM_AMOUNT chỉ cho số RAM bạn dùng để mở server (Ví dụ: Cấu hình máy là 64GB RAM bạn muốn mở 32GB RAM thì ghi 32768M / 32G / 32000M
+### Trong file docker-compose.yml nếu server bạn mở thêm cho người dùng BE (Bugrock Edition) thì hãy thêm vào mục ports
 ```
 - 19132:19132
 ```
-## Trong file Dockerfile openjdk:16-jdk-alpine để chỉ cho phiên bản java bạn dùng để mở server. Nếu phiên bản của bạn yêu cầu java 17 đổ lên thì đởi thành openjdk:17-jdk-alpine
-## Trong file Dockerfile paper-1.16.5-794.jar để chỉ cho file server, bạn sẽ phải đổi đúng với file bạn tải
-## Nếu bạn chọn dùng docker thì bạn không cần cài java nhé 
+### Trong file Dockerfile openjdk:16-jdk-alpine để chỉ cho phiên bản java bạn dùng để mở server. Nếu phiên bản của bạn yêu cầu java 17 đổ lên thì đởi thành openjdk:17-jdk-alpine
+### Trong file Dockerfile paper-1.16.5-794.jar để chỉ cho file server, bạn sẽ phải đổi đúng với file bạn tải
+### Nếu bạn chọn dùng docker thì bạn không cần cài java nhé 
 
 
-### Tags
-## Ngoài ra còn có các loại Tags bạn có thể dùng (tham khảo tại [ĐÂY](https://flags.sh) )
+## 🏷️Tags
+### Ngoài ra còn có các loại Tags bạn có thể dùng (tham khảo tại [ĐÂY](https://flags.sh) )
 ```-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 ```
 
 
