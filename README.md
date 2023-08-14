@@ -127,7 +127,7 @@ Vào link sau: https://www.whatismyip.com/
 
 
 ### Trên đây là tất cả hướng dẫn cơ bản nhất để tạo một server Minecraft trực tiếp trên máy tính của bạn.
-## Xin chân thành cảm ơn: [Herta-Chan](https://github.com/Herta-Chan) [MiyagawaMizu](https://github.com/MiyagawaMizu), 
+## Xin chân thành cảm ơn: [Herta-Chan](https://github.com/Herta-Chan), [MiyagawaMizu](https://github.com/MiyagawaMizu) đã hỗ trợ mình hoàn thiện bài viết này.
 
 Nếu có thắc mắc hoặc cần giúp đỡ, vui lòng liên hệ mình theo Discord: **demoncard09** (cơ bản) và **_itzdenki** (hỗ trợ docker)
 
