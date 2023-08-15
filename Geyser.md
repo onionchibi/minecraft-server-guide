@@ -7,7 +7,7 @@ https://geysermc.org/
 
 Các bạn tải 2 file như trên hình: **Geyser** và **Floodgate**.
 Cho dễ hiểu, **floodgate** chính là `online-mode=false` cho điện thoại.
-- Sau khi tải về, các bạn copy cả 2 file vào thư mục `plugins` trong thư mục server gốc của các bạn (Hãy chắc chắn rằng server của bạn đã stop). Sau đó tiến hành khởi động lại server.
+- Sau khi tải về, các bạn copy cả 2 file vào thư mục `plugins` trong thư mục server gốc của các bạn **(Hãy chắc chắn rằng server của bạn đã tắt)**. Sau đó tiến hành khởi động lại server.
 - Sau khi server khởi động xong, gõ **stop** để tắt server.
 - Mở thư mục `plugins`, tại đây bạn sẽ thấy 2 thư mục mới đó là: `Geyser-Spigot` và `floodgate`.
 - Trong thư mục `Geyser-Spigot`, mở file `config.yml` bằng **Notepad++**.
