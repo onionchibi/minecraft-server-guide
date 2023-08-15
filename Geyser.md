@@ -14,3 +14,5 @@ Cho dễ hiểu, **floodgate** chính là `online-mode=false` cho điện thoạ
 - Tìm **auth-type:**, chỉnh `online` thành `floodgate` và lưu lại.
 
 IP kết nối: **Public IPv4**, port mặc định.
+
+## ⚠️ Lưu ý: Phần mềm hack game trên điện thoại rất dễ dàng qua mặt được các anti-cheat của server, hãy cân nhắc trước khi cho người chơi trên điện thoại tham gia vào server của bạn.
