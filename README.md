@@ -124,7 +124,7 @@ Vào link sau: https://www.whatismyip.com/
 **My Public IPv4** chính là IP để cho người khác có thể tham gia vào máy chủ của bạn.
 
 - Lưu ý: Mỗi lần bạn rút điện modem, Public IPv4 sẽ bị thay đổi.
-### Hướng dẫn cài đặt plugin **Geyser** - giúp điện thoại chơi chung server với máy tính: https://github.com/onionchibi/minecraft-server-guide/blob/main/Geyser.md
+### 📌 Hướng dẫn cài đặt plugin **Geyser** - giúp điện thoại chơi chung server với máy tính: https://github.com/onionchibi/minecraft-server-guide/blob/main/Geyser.md
 
 ### Trên đây là tất cả hướng dẫn cơ bản nhất để tạo một server Minecraft trực tiếp trên máy tính của bạn.
 ## Xin chân thành cảm ơn: [Herta-Chan](https://github.com/Herta-Chan), [MiyagawaMizu](https://github.com/MiyagawaMizu) đã hỗ trợ mình hoàn thiện bài viết này.
